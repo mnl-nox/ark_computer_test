@@ -1,8 +1,8 @@
 import time 
 
-inicio = time.perf_counter()
+start = time.perf_counter()
 total = sum(range(10_000_000))
-duracao = time.perf_counter() - inicio 
+time = time.perf_counter() - start
 
-print("resultado: ", total)
-print(f"tempo {duracao:.3f}segundos")
+print("result: ", total)
+print(f"time {time:.3f}seconds")
