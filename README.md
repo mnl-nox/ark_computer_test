@@ -17,4 +17,10 @@ Centralizar código, scripts e validações para execução e manutenção do pr
 
 ## Execução
 
-Consulte os arquivos do projeto para identificar o script ou comando específico de cada teste. Execute os comandos a partir da raiz do repositório.
+Com Python 3 instalado, execute o experimento a partir da raiz do repositório:
+
+```bash
+python3 src/test_cpu.py
+```
+
+Veja a [documentação do projeto](doc/README.md) para detalhes sobre o objetivo, a arquitetura e as limitações da medição.
